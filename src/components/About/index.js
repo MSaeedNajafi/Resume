@@ -19,7 +19,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./AboutElements";
-import img from "../../images/svg-7.svg";
+import img from "../../images/me.jpg";
 import { Button } from "../ButtonElemts";
 
 const AboutSection = () => {

@@ -141,7 +141,7 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
+  margin-bottom: 16px;
   font-szie: 18px;
   line-height: 24px;
   color: ${COL.descPrimary};
@@ -168,7 +168,8 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
-  border-radius: 550px;
+  border-radius: 150px;
+  border: 3px solid ${COL.activeColor};
 `;
 
 export const AboutBtnWapper = styled.div`
