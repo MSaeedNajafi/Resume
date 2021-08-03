@@ -41,7 +41,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Read Nore {hover ? <ArrowForward /> : <ArrowRight />}
+            Read More {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
