@@ -11,6 +11,7 @@ import {
   FormInput,
   Text,
   FormInputTextArea,
+  IconWrap,
 } from "./ContactElements";
 import COL from "../Colors";
 const Contact = () => {
@@ -18,9 +19,11 @@ const Contact = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">
-            iam<span style={{ color: COL.btnPrimaryColor }}>$</span>aeed
-          </Icon>
+          <IconWrap>
+            <Icon to="/">
+              iam<span style={{ color: COL.btnPrimaryColor }}>$</span>aeed
+            </Icon>
+          </IconWrap>
           <FormCotent>
             <Form action="#">
               <FormH1>Please Contact Me:</FormH1>
