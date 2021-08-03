@@ -30,7 +30,7 @@ const HeroSection = () => {
         <HeroP>Please read more about it.</HeroP>
         <HeroBtnWrapper>
           <Button
-            to="id3"
+            to="about"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
@@ -41,7 +41,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Contact Us {hover ? <ArrowForward /> : <ArrowRight />}
+            Read Nore {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

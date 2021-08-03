@@ -58,3 +58,21 @@ export const HomeObjThree = {
   primary: true,
   darkText: false,
 };
+
+export const HomeObjFour = {
+  id: "services",
+  lightBg: true,
+  lightText: false,
+  lightTextDecs: false,
+  topTitle: "Bachelor Degree TU Delft",
+  title: "Computer science and engineering ",
+  decsription:
+    "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: img4,
+  alt: "Bank",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
