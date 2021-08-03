@@ -11,7 +11,7 @@ export const HomeObjOne = {
   lightText: true,
   lightTextDecs: true,
   topTitle: "A little about me",
-  title: "I am Saeed ",
+  title: "I am a Developer ",
   decsription:
     "I have just over a year of experience as a junior software engineer with First Technology. In my short time there, I've already contributed to over a dozen projects and assisted with managing one project for one of the firm's long-time clients",
   buttonLabel: "Contact Me",

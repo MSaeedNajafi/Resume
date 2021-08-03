@@ -49,8 +49,8 @@ const COL = {
   FooterLinkOnHoverColor: "#345EEF",
   socialMediaIconColor: "#fff",
   footerSocialMediaTextColor: "#fff",
-  //signin
-  signinIconColor: "#fff",
+  //contactme
+  contactIconColor: "#fff",
   formBckGround: "#010101",
   formH1Color: "#fff",
   formBtnBckColor: "#345EEF",

@@ -38,26 +38,26 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinksItems>
                 <FooterLinkTitle>About US</FooterLinkTitle>
-                <FooterLink to="/signin">Testomonials</FooterLink>
-                <FooterLink to="/signin">Careers</FooterLink>
-                <FooterLink to="/signin">Inverstors</FooterLink>
-                <FooterLink to="/signin">Terms of services</FooterLink>
+                <FooterLink to="/contact-me">Testomonials</FooterLink>
+                <FooterLink to="/contact-me">Careers</FooterLink>
+                <FooterLink to="/contact-me">Inverstors</FooterLink>
+                <FooterLink to="/contact-me">Terms of services</FooterLink>
               </FooterLinksItems>
               <FooterLinksItems>
                 <FooterLinkTitle>About US</FooterLinkTitle>
-                <FooterLink to="/signin">How it works</FooterLink>
-                <FooterLink to="/signin">Testomonials</FooterLink>
-                <FooterLink to="/signin">Careers</FooterLink>
-                <FooterLink to="/signin">Terms of services</FooterLink>
+                <FooterLink to="/contact-me">How it works</FooterLink>
+                <FooterLink to="/contact-me">Testomonials</FooterLink>
+                <FooterLink to="/contact-me">Careers</FooterLink>
+                <FooterLink to="/contact-me">Terms of services</FooterLink>
               </FooterLinksItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
               <FooterLinksItems>
                 <FooterLinkTitle>Business</FooterLinkTitle>
-                <FooterLink to="/signin">How it works</FooterLink>
-                <FooterLink to="/signin">Testomonials</FooterLink>
-                <FooterLink to="/signin">Inverstors</FooterLink>
-                <FooterLink to="/signin">Terms of services</FooterLink>
+                <FooterLink to="/contact-me">How it works</FooterLink>
+                <FooterLink to="/contact-me">Testomonials</FooterLink>
+                <FooterLink to="/contact-me">Inverstors</FooterLink>
+                <FooterLink to="/contact-me">Terms of services</FooterLink>
               </FooterLinksItems>
               <FooterLinksItems>
                 <FooterLinkTitle>Social Media</FooterLinkTitle>

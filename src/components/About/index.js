@@ -45,12 +45,11 @@ const AboutSection = () => {
               </TextWrapper> */}
             </Column1>
             <Column2>
-              <TopTitile>Hello</TopTitile>
-              <Title>Saeed Najafi</Title>
+              <TopTitile>Welcome</TopTitile>
+              <Title>I am Saeed</Title>
               <Description>
-                I'm a paragraph. Click here to add your own text and edit me.
-                I’m a great place for you to tell a story and let your users
-                know a little more about you.
+                I love to code. I am pioneerwho is not afraid to think out side
+                of the box. I love to come up with solutions and solve problems.
               </Description>
               <AboutBtnWapper>
                 <Button
@@ -65,7 +64,7 @@ const AboutSection = () => {
                   exact="true"
                   offset={-80}
                 >
-                  Read More {hover ? <ArrowForward /> : <ArrowRight />}
+                  Want to know More? {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
               </AboutBtnWapper>
             </Column2>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import { MdKeyboardArrowDown, MdArrowDownward } from "react-icons/md";
 import COL from "../Colors";
 
 export const AboutContainer = styled.div`
@@ -184,12 +184,12 @@ export const AboutBtnWapper = styled.div`
   }
 `;
 
-export const ArrowForward = styled(MdArrowForward)`
+export const ArrowForward = styled(MdArrowDownward)`
   margin-left: 8px;
   font-size: 20px;
 `;
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
+export const ArrowRight = styled(MdKeyboardArrowDown)`
   margin-left: 8px;
   font-size: 20px;
 `;

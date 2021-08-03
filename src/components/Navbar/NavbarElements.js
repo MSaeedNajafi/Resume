@@ -141,13 +141,15 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: ${COL.btnPrimaryColor};
+  border-radius: 5px;
+  // background: ${COL.btnPrimaryColor};
+  background: transparent;
+  border: 3px solid ${COL.btnPrimaryColor};
   white-space: nowarp;
   padding: 10px 22px;
-  color: ${COL.btnNavTextColor};
+  color: ${COL.btnPrimaryColor};
   font-size: 16px;
-  border: none;
+  // border: none;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -155,8 +157,9 @@ export const NavBtnLink = styled(LinkR)`
   // margin-left: 24px;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${COL.btnHoverColor};
-    color: ${COL.btnNavTextColor};
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
   }
 `;
 

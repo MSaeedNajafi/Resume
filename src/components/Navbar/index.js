@@ -102,10 +102,10 @@ const Navbar = ({ toggle }) => {
                   Skills
                 </NavLink>
               </NavItem>
+              <NavBtn>
+                <NavBtnLink to="/contact-me">Contact Me</NavBtnLink>
+              </NavBtn>
             </NavMenu>
-            <NavBtn>
-              <NavBtnLink to="/signin">Contact Me</NavBtnLink>
-            </NavBtn>
           </NavBarCotainer>
         </Nav>
       </IconContext.Provider>

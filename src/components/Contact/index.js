@@ -11,9 +11,9 @@ import {
   FormInput,
   Text,
   FormInputTextArea,
-} from "./SigninElements";
+} from "./ContactElements";
 import COL from "../Colors";
-const SignIn = () => {
+const Contact = () => {
   return (
     <>
       <Container>
@@ -39,4 +39,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Contact;

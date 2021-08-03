@@ -74,21 +74,22 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SideBarRoute = styled(LinkR)`
-  border-radius: 50px;
-  background: ${COL.btnPrimaryColor};
+  border-radius: 5px;
+  background: transparent;
   white-space: nowarp;
   padding: 16px 64px;
-  color: ${COL.btnTextInfoColor};
+  color: ${COL.btnPrimaryColor};
   font-size: 16px;
   outline: none;
-  border: none;
+  border: 3px solid ${COL.btnPrimaryColor};
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${COL.sideBarBtnHover};
-    color: ${COL.btnTextInfoColor};
+    // background: ${COL.sideBarBtnHover};
+    color: #fff;
+    border: 3px solid #fff;
   }
 `;
