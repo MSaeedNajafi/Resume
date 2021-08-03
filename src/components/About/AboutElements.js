@@ -154,6 +154,10 @@ export const Description = styled.p`
 export const ImgWrap = styled.div`
   max-width: 300px;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    max-width: 250px;
+  }
   @media screen and (max-width: 480px) {
     max-width: 200px;
   }
