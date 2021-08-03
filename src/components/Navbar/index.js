@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About Us
+                  About me
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -75,7 +75,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Link 2
+                  Resume
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Link 3
+                  Projects
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -104,14 +104,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink
-                onClick={() => {
-                  console.log("pressed");
-                }}
-                to="/signin"
-              >
-                Sign In
-              </NavBtnLink>
+              <NavBtnLink to="/signin">Contact Me</NavBtnLink>
             </NavBtn>
           </NavBarCotainer>
         </Nav>

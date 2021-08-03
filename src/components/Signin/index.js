@@ -10,6 +10,7 @@ import {
   Icon,
   FormInput,
   Text,
+  FormInputTextArea,
 } from "./SigninElements";
 import COL from "../Colors";
 const SignIn = () => {
@@ -22,13 +23,14 @@ const SignIn = () => {
           </Icon>
           <FormCotent>
             <Form action="#">
-              <FormH1>Sign in to your account</FormH1>
+              <FormH1>Please Contact Me:</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>
               <FormInput type="email" required />
-              <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput type="password" required />
-              <FormButton type="submit">Continue</FormButton>
-              <Text>Forget Password</Text>
+              <FormLabel htmlFor="for">Subject</FormLabel>
+              <FormInput type="subject" required />
+              <FormLabel htmlFor="for">Message</FormLabel>
+              <FormInputTextArea type="message" required />
+              <FormButton type="submit">Send</FormButton>
             </Form>
           </FormCotent>
         </FormWrap>

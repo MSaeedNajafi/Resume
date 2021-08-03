@@ -156,7 +156,7 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${COL.btnHoverColor};
-    color: ${COL.btnInfoColor};
+    color: ${COL.btnNavTextColor};
   }
 `;
 
