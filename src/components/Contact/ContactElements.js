@@ -44,7 +44,7 @@ export const FormWrap = styled.div`
 `;
 
 export const Icon = styled(Link)`
-  margin-left: 32px;
+  // margin-left: 32px;
   margin-top: 32px;
   text-decoration: none;
   color: ${COL.contactIconColor};
