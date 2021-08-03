@@ -19,10 +19,16 @@ export const Container = styled.div`
   //   hsla(15, 79%, 69%, 1) 0%,
   //   hsla(15, 100%, 57%, 1) 100%
   // );
+  // background: linear-gradient(
+  //   180deg,
+  //   hsl(13.2, 86.5%, 82.5%) 0%,
+  //   hsl(15.1, 100%, 57.1%) 100%
+  // );
+  background: rgb(52, 94, 239);
   background: linear-gradient(
-    180deg,
-    hsl(13.2, 86.5%, 82.5%) 0%,
-    hsl(15.1, 100%, 57.1%) 100%
+    360deg,
+    rgba(52, 94, 239, 1) 0%,
+    rgba(136, 160, 242, 1) 100%
   );
 `;
 

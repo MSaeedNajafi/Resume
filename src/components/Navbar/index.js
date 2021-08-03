@@ -75,7 +75,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Resume
+                  Education
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Services
+                  Skills
                 </NavLink>
               </NavItem>
             </NavMenu>

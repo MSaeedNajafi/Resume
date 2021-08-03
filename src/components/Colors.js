@@ -1,18 +1,18 @@
 const general = {
   primaryColor: "#01bf71",
   secondaryColor: "#010606",
-  // primaryColor: "#ef9273", 1c6464
+  // primaryColor: "#345EEF", 1c6464
   // secondaryColor: "#010606",
   textANDTitle: "#fff",
 };
 
 const COL = {
   //general
-  btnPrimaryColor: "#ef9273",
+  btnPrimaryColor: "#345EEF",
   btnSecondaryColor: "#010606",
   btnTextColor: "#010606",
-  topTitleColor: "#ef9273",
-  activeColor: "#ef9273",
+  topTitleColor: "#345EEF",
+  activeColor: "#345EEF",
   btnSecondaryTextColor: "#fff",
   //navigation
   btnNavTextColor: "#010606",
@@ -25,7 +25,7 @@ const COL = {
   sideBarTextColor: "#fff",
   iconColro: "#fff",
   sideBarBtnHover: "#fff",
-  sideBarTextHoverColor: "#ef9273",
+  sideBarTextHoverColor: "#345EEF",
   //Info
   infoContainer: "#010606",
   infoSecondaryContainer: "#f9f9f9",
@@ -46,14 +46,14 @@ const COL = {
   //footer
   footerContainerBckColor: "#101522",
   footerLinkItemsColor: "#fff",
-  FooterLinkOnHoverColor: "#ef9273",
+  FooterLinkOnHoverColor: "#345EEF",
   socialMediaIconColor: "#fff",
   footerSocialMediaTextColor: "#fff",
   //signin
   signinIconColor: "#fff",
   formBckGround: "#010101",
   formH1Color: "#fff",
-  formBtnBckColor: "#ef9273",
+  formBtnBckColor: "#345EEF",
   formBtnTextColor: "#fff",
   formSpanColor: "#fff",
 };

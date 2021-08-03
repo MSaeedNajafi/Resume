@@ -1,5 +1,5 @@
 import img1 from "../../images/svg-1.svg";
-import img2 from "../../images/svg-2.svg";
+import img2 from "../../images/svg-2-3.svg";
 import img3 from "../../images/svg-3.svg";
 import img4 from "../../images/svg-4.svg";
 import img5 from "../../images/svg-5.svg";
@@ -10,11 +10,11 @@ export const HomeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDecs: true,
-  topTitle: "Why us?",
-  title: "Radix Validator ",
+  topTitle: "A little about me",
+  title: "I am Saeed ",
   decsription:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  buttonLabel: "Get Sarted",
+    "I have just over a year of experience as a junior software engineer with First Technology. In my short time there, I've already contributed to over a dozen projects and assisted with managing one project for one of the firm's long-time clients",
+  buttonLabel: "Contact Me",
   imgStart: false,
   img: img1,
   alt: "Radix",
@@ -28,8 +28,8 @@ export const HomeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDecs: false,
-  topTitle: "Get Rewards",
-  title: "Radix Validator ",
+  topTitle: "Bachelor Degree TU Delft",
+  title: "Computer science and engineering ",
   decsription:
     "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   buttonLabel: "Learn More",
