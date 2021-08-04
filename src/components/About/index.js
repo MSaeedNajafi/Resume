@@ -19,12 +19,13 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./AboutElements";
+import { useTranslation } from "react-i18next";
 import img from "../../images/me.jpg";
 import { Button } from "../ButtonElemts";
 
 const AboutSection = () => {
   const [hover, setHover] = useState(false);
-
+  const { t, i18n } = useTranslation();
   const onHover = () => {
     setHover(!hover);
   };
@@ -45,12 +46,9 @@ const AboutSection = () => {
               </TextWrapper> */}
             </Column1>
             <Column2>
-              <TopTitile>Welcome</TopTitile>
-              <Title>I am Saeed</Title>
-              <Description>
-                I love to code. I am pioneerwho is not afraid to think out side
-                of the box. I love to come up with solutions and solve problems.
-              </Description>
+              <TopTitile>{t("Welcome")}</TopTitile>
+              <Title>{t("iam")}</Title>
+              <Description>{t("about")}</Description>
               <AboutBtnWapper>
                 <Button
                   to="about"
@@ -64,7 +62,7 @@ const AboutSection = () => {
                   exact="true"
                   offset={-80}
                 >
-                  Want to know More? {hover ? <ArrowForward /> : <ArrowRight />}
+                  {t("wantmote")} {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
               </AboutBtnWapper>
             </Column2>

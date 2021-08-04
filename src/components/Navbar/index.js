@@ -18,10 +18,12 @@ import {
 } from "./NavbarElements";
 import { IconContext } from "react-icons/lib";
 import { FaBars } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import img1 from "../../images/logo.png";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
+  const [t, i18n] = useTranslation();
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -64,7 +66,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About me
+                  {t("aboutme")}
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -76,7 +78,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Education
+                  {t("education")}
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -88,7 +90,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Projects
+                  {t("projects")}
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -100,15 +102,19 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Skills
+                  {t("skills")}
                 </NavLink>
               </NavItem>
               <NavBtn>
                 <NavBtnLink to="/contact-me">Contact Me</NavBtnLink>
               </NavBtn>
               <Select>
-                <option value="En">EN</option>
-                <option value="Nl">NL</option>
+                <option value="En" onClick={() => i18n.changeLanguage("en")}>
+                  EN
+                </option>
+                <option onClick={() => i18n.changeLanguage("nl")} value="Nl">
+                  NL
+                </option>
               </Select>
             </NavMenu>
           </NavBarCotainer>
