@@ -182,3 +182,50 @@ export const ImgWrap = styled.div`
   // font-weight: bold;
   // text-decoration: none;
 `;
+
+export const Select = styled.select`
+  height: 40px;
+  background: transparent;
+  color: #fff;
+  padding-left: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+
+  option {
+    color: ${COL.btnPrimaryColor};
+    background: transparent;
+    display: flex;
+    white-space: pre;
+    min-height: 20px;
+    padding: 0px 2px 1px;
+    // width: 5px;
+    // margin: 0 0 10px 0;
+  }
+
+  img {
+    width: 5px;
+    margin: 0 0 10px 0;
+  }
+`;
+
+export const LanImg = styled.img`
+  width: 5px;
+  margin: 0 0 10px 0;
+  // padding-feft: 10px;
+`;
+
+export const LanImgWrap = styled.div`
+  max-width: 150px;
+  height: 100%;
+
+  justify-self: flex-start;
+  display: flex;
+  cursor: pointer;
+  // font-size: 1.5rem;
+  align-items: center;
+  margin-left: 24px;
+  // font-weight: bold;
+  // text-decoration: none;
+`;

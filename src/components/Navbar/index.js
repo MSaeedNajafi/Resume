@@ -14,6 +14,7 @@ import {
   NavLogoLink,
   NavLogoImg,
   ImgWrap,
+  Select,
 } from "./NavbarElements";
 import { IconContext } from "react-icons/lib";
 import { FaBars } from "react-icons/fa";
@@ -105,6 +106,10 @@ const Navbar = ({ toggle }) => {
               <NavBtn>
                 <NavBtnLink to="/contact-me">Contact Me</NavBtnLink>
               </NavBtn>
+              <Select>
+                <option value="En">EN</option>
+                <option value="Nl">NL</option>
+              </Select>
             </NavMenu>
           </NavBarCotainer>
         </Nav>
