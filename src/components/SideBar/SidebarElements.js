@@ -12,7 +12,7 @@ export const SidebarContainer = styled.aside`
       // z-index: 999;
       z-index: ${({ isOpen }) => (isOpen ? "999" : "0")};
       width: 100%;
-      height: 110%;
+      height: 150%;
       background: ${COL.sideBarBackgroundColor};
       display: grid;
       align-items: center;
