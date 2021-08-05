@@ -182,9 +182,9 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // @media screen and (max-width: 400px) {
-  //   height: 80%;
-  // }
+  @media screen and (max-width: 480px) {
+    height: 80%;
+  }
 `;
 
 export const Icon = styled(Link)`
@@ -238,24 +238,23 @@ export const Form = styled.form`
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
   @media screen and (max-width: 480px) {
-    padding: 32px 32px;
-    margin-top: -100px;
+    padding: 22px 22px;
   }
-  @media screen and (max-width: 320px) {
-    margin-top: -240px;
+  @media screen and (max-width: 400px) {
+    // margin-top: -75px;
     // padding: 8px;
   }
 `;
 
 export const FormH1 = styled.h1`
-  margin-bottom: 8px;
+  // margin-bottom: 8px;
   font-size: 20px;
   color: ${COL.formH1Color};
   font-weight: 400;
   text-align: center;
   padding: 18px;
-  @media screen and (max-width: 320px) {
-    margin-top: -30px;
+  @media screen and (max-width: 350px) {
+    margin-top: -20px;
     padding: 8px;
   }
   // margin-top: -50px;
