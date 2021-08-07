@@ -31,7 +31,7 @@ const AboutSection = () => {
   };
   return (
     <>
-      <AboutContainer>
+      <AboutContainer id="top">
         <AboutBg>
           <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
         </AboutBg>

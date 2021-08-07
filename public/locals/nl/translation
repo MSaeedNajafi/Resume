@@ -1,10 +1,13 @@
 { 
-    "Welcome": "welkom",
+    "Welcome": "Welkom",
     "iam":"Ik ben Saeed",
     "about":"Ik ben dol op coderen. Ik ben een pionier die niet bang is om out of the box te denken. Ik vind het leuk om oplossingen te bedenken en problemen op te lossen.",
     "wantmote":"Wil meer weten?",
     "aboutme":"Over mij",
     "education":"Onderwijs",
     "projects":"Projecten ",
-    "skills":"Vaardigheden"
+    "skills":"Vaardigheden",
+    "contactme":"Neem contact met mij op:",
+    "send":"Versturen",
+    "msgbeensent":"Je bericht is verzonden"
 }

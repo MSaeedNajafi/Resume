@@ -21,6 +21,7 @@ export const HomeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
+  goto: "id2",
 };
 
 export const HomeObjTwo = {
@@ -39,6 +40,7 @@ export const HomeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
+  goto: "id3",
 };
 
 export const HomeObjThree = {
@@ -57,6 +59,7 @@ export const HomeObjThree = {
   dark: true,
   primary: true,
   darkText: false,
+  goto: "services",
 };
 
 export const HomeObjFour = {
@@ -75,4 +78,5 @@ export const HomeObjFour = {
   dark: false,
   primary: false,
   darkText: true,
+  goto: "top",
 };

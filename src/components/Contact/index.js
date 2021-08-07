@@ -13,16 +13,17 @@ import {
   FormInputTextArea,
   IconWrap,
 } from "./ContactElements";
+import { useTranslation } from "react-i18next";
 import { send } from "emailjs-com";
 import COL from "../Colors";
 
 const Contact = () => {
+  const { t, i18n } = useTranslation();
   const [toSend, setToSend] = useState({
     email: "",
     subject: "",
     message: "",
   });
-
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
@@ -58,7 +59,7 @@ const Contact = () => {
           </IconWrap>
           <FormCotent>
             <Form action="#" onSubmit={onSubmit}>
-              <FormH1>Please Contact Me:</FormH1>
+              <FormH1>{t("contactme")}</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>
               <FormInput
                 type="email"
@@ -88,7 +89,7 @@ const Contact = () => {
               />
 
               <FormButton type="submit">
-                {submitted ? "Your Message Has been sent" : "Send"}
+                {submitted ? t("msgbeensent") : t("send")}
               </FormButton>
             </Form>
           </FormCotent>

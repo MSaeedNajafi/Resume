@@ -6,5 +6,8 @@
     "aboutme":"About me",
     "education":"Education",
     "projects":"Projects",
-    "skills":"Skills"
+    "skills":"Skills",
+    "contactme":"Please Contact Me:",
+    "send":"Send",
+    "msgbeensent":"Your Message Has been sent"
 }

@@ -1,4 +1,10 @@
 import styled from "styled-components";
+import {
+  MdKeyboardArrowDown,
+  MdArrowDownward,
+  MdKeyboardArrowUp,
+  MdArrowUpward,
+} from "react-icons/md";
 import COL from "../Colors";
 
 export const InfoContainer = styled.div`
@@ -102,4 +108,24 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+`;
+
+export const ArrowForward = styled(MdArrowDownward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowRight = styled(MdKeyboardArrowDown)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowBack = styled(MdArrowUpward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowTop = styled(MdKeyboardArrowUp)`
+  margin-left: 8px;
+  font-size: 20px;
 `;
