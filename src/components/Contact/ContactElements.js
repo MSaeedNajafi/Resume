@@ -154,7 +154,7 @@ import { Link } from "react-router-dom";
 import COL from "../Colors";
 
 export const Container = styled.div`
-  min-height: 800px;
+  min-height: 692px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -182,7 +182,7 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 400px) {
     height: 80%;
   }
 `;
@@ -237,7 +237,7 @@ export const Form = styled.form`
   padding: 80px 32px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 400px) {
     padding: 22px 22px;
   }
   @media screen and (max-width: 400px) {
@@ -252,11 +252,11 @@ export const FormH1 = styled.h1`
   color: ${COL.formH1Color};
   font-weight: 400;
   text-align: center;
-  padding: 18px;
-  @media screen and (max-width: 350px) {
-    margin-top: -20px;
-    padding: 8px;
-  }
+  // padding: 18px;
+  // @media screen and (max-width: 350px) {
+  //   margin-top: -20px;
+  //   padding: 8px;
+  // }
   // margin-top: -50px;
 `;
 

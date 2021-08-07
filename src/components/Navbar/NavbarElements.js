@@ -130,7 +130,7 @@ export const NavLink = styled(LinkS)`
   }
 `;
 
-export const NavBtn = styled.nav`
+export const NavBtn = styled.div`
   display: flex;
   align-items: center;
   // margin-right: 24px;
