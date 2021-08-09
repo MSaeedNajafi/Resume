@@ -32,12 +32,7 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send(
-      "service_8yf4u5h",
-      "template_u53r1y8",
-      toSend,
-      "user_NXy5GXQ6TAHi06abFf5Ck"
-    )
+    send("service_8yf4u5h", "contactme", toSend, "user_NXy5GXQ6TAHi06abFf5Ck")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         setToSend({ email: "", subject: "", message: "" });
